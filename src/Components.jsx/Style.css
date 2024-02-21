@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    display:flex;
+    text-align:right;
+    color: blue;
+    cursor: pointer;
+    align-items: center;
+    justify-content:space-between ;
+    
+    
+}
+select{
+    cursor: pointer;
+    color: blue;
+    transition: duration 0.2s;;
+}
+.Hi{
+    text-align: right;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: blue;
+    
+}
+.logo h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav li a:hover{
+    color: rgb(20, 20, 235);
+    cursor: pointer;
+}
+header select{
+    border: none;
+    outline: none;
+    font-size:22px;
+    color: black;
+}
+.nav li button{
+    background-color: blue;
+    font-size: 20px;
+    min-width: 150px;
+    padding: 20px;
+    color: aliceblue;
+    border: none;
+}
+.Hero{
+    display: flex;
+
+}
+.Hero-left{
+    min-height: 70vh;
+    background-color: blue;
+    flex: 1;
+    font-size:35px;
+    align-items: center;
+    color: antiquewhite;
+    text-align:left;
+    padding: 20px;
+
+}
+.Hero-right{
+    min-height: 70vh;
+    flex: 1;
+    background-color: aqua;
+    position: relative;
+}
+.container{
+    display: flex;
+    padding: 10px;
+
+}
+.container .card1{
+    flex: 1;
+    color: aliceblue !important;
+    text-align: center;
+    border-left: 1px solid #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+.Hero-right .image-Heading{
+    color: rgb(138, 84, 14);
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.Hero-right img{
+    height:70vh;
+}
+.Good{
+    display:flex;
+    background-color: azure;
+    align-items:center;
+    padding: 20px;
+}
+.Good .Good-left{
+   position: relative;
+   flex: 1;
+   display:flex;
+   justify-content: end;
+ 
+    
+}
+.Good-right{
+    flex: 1;
+    text-align:start;
+    margin-left: 20px;
+    padding: 20px;
+}
+.image2{
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+    border: 21px solid #fff;
+
+}
+
+.Good button{
+   
+}
+.Hel{
+    position: absolute;
+}
+.Better{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+   font-size: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    
+}
+.card-item{
+    width: 300px;
+    background-color: rgb(212, 221, 221);
+    font-size:25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(145, 141, 141);
+    
+
+}
+.item2{
+    min-height: 70vh;
+    background-color: rgb(65, 65, 87);
+
+    align-items: center;
+    color: antiquewhite;
+   
+    display: flex;
+}
+.item3{
+    padding: 20px;
+    flex: 1;
+    background-color: blue;
+   
+   
+ 
+} 
+.item3 list{
+    text-align: end;
+}
+.item4{
+    flex: 1;
+   
+}
+.item image{
+    width: 100px;
+    height: 100px;
+}
+.item5{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+   
+}
+.doctor-card{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 20px;
+  
+}
+.doctor-card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.item6 button{
+background-color: blue;
+color: aliceblue;
+font-size: 30px;
+margin-top: 15px;
+text-align: center !important;
+margin: 20px;
+padding: 20px;
+}
